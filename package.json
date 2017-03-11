@@ -1,0 +1,16 @@
+{
+  "name": "electron-scaffold",
+  "version": "1.0.0",
+  "description": "The simplest scaffold to test Electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Yuya Ochiai",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "*"
+  }
+}
