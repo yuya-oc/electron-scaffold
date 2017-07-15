@@ -5,12 +5,14 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack:win": "electron-packager . electron-scaffold --platform=win32 --arch=ia32 --overwrite"
   },
   "keywords": [],
   "author": "Yuya Ochiai",
   "license": "ISC",
   "devDependencies": {
-    "electron": "*"
+    "electron": "*",
+    "electron-packager": "^8.7.2"
   }
 }
