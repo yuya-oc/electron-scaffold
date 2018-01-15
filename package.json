@@ -7,7 +7,10 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "xo --space",
-    "pack:win": "electron-packager . electron-scaffold --platform=win32 --arch=ia32 --overwrite"
+    "pack": "electron-packager . electron-scaffold --overwrite",
+    "pack:win": "npm run pack -- --platform=win32 --arch=ia32",
+    "pack:mac": "npm run pack -- --platform=darwin",
+    "pack:lin": "npm run pack -- --platform=linux"
   },
   "keywords": [],
   "author": "Yuya Ochiai",
